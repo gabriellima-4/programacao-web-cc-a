@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
@@ -11,14 +11,24 @@ h1 {
     font-style: italic;
 }
 
-input {
+.entradas-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
+input {
+    border-radius: 5px;
 }
 
 button {
-
+    border-radius: 5px;
+    background-color:aqua;
 }
 
 footer {
-    text-align: right;
+    text-align: end;
 }
