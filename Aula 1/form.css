@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: midnightblue;
+    text-align: center;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+input {
+
+}
+
+button {
+
+}
+
+footer {
+    text-align: right;
+}
