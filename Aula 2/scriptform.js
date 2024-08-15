@@ -7,8 +7,8 @@ botao.addEventListener("click", enviar);
 function enviar() {
     let Nome = document.getElementById("Nome").value;
     let Idade = document.getElementById("Idade").value;
-    let CPF = document.getElementById("CPF").value;
+    let Email = document.getElementById("Email").value;
 
-    console.log(Nome, Idade, CPF)
+    console.log(Nome, Idade, Email)
     alert("OK!");
 }
